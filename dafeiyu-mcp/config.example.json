@@ -1,0 +1,10 @@
+{
+ "bili_ups": [],
+ "image_tags": [
+  {"tag": "yuzuki_yukari", "name": "结月缘", "weight": 3},
+  {"tag": "ryu_lion", "name": "琉·利昂", "weight": 2},
+  {"tag": "natsume_anan", "name": "夏目安安", "weight": 2},
+  {"tag": "mahou_shoujo_no_majo_saiban", "name": "魔女裁判", "weight": 1}
+ ],
+ "mail": {"host": "imap.web.de", "user": "you@web.de", "password": "用 set-mail.ps1 写入，不要手填进仓库", "folders": ["INBOX"]}
+}

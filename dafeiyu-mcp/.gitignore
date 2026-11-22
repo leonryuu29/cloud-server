@@ -1,0 +1,14 @@
+# secrets & personal data (never commit)
+config.json
+netease_session.txt
+state.json
+watchdog_state.json
+mail_check_state.json
+music_profile.json
+*.log
+data/
+images/
+old_images/
+__pycache__/
+*.bak*
+watchdog_key

@@ -1,0 +1,1 @@
+10 6 * * * root /root/.local/share/uv/tools/astrbot/bin/python /root/dafeiyu-mcp/music_snapshot.py >> /root/dafeiyu-mcp/snapshot.log 2>&1

@@ -1,0 +1,19 @@
+[Unit]
+Description=AstrBot (QQ bot + DeepSeek)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+# 固定数据目录，再也不会在错误的目录启动
+WorkingDirectory=/root/astrbot
+ExecStart=/root/.local/bin/astrbot run
+Environment=PATH=/root/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+Environment=PYTHONUNBUFFERED=1
+# 崩了 10 秒后自动重启
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
